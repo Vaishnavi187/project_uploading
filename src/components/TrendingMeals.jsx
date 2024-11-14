@@ -88,7 +88,7 @@ const TrendingMeals = () => {
   return (
     <>
       <div className='min-w-full'>
-<div className='mt-10 w-11/12 ml-16 '>
+<div className='mt-10 w-full overflow-hidden '>
     <h1 className='text-center font-bold text-lg mt-10  border-b-2 sm:text-xl md:text-3xl'>TRENDING DESSERTS </h1>
 <Slider {...settings1}>
 {food.map((foodie)=>(
