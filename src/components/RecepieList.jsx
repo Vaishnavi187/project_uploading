@@ -97,7 +97,7 @@ const RecepieList = () => {
   <button className='bg-black p-1 '>Search</button>
  </form> */}
  <form onSubmit={handlebyname}>
-  <input   className='h-10 text-center w-80 '
+  <input   className='h-10 text-center w-60 '
   type='text'
   placeholder='Search by name.....' 
   value={meal}
