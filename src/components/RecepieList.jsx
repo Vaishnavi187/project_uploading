@@ -152,7 +152,7 @@ const RecepieList = () => {
 </div>
 
  
-   <div className='flex flex-wrap  gap-8 ml-10  mt-5'>
+   <div className='flex flex-wrap  gap-8   mt-5'>
     {recipes?( recipes.map((recipess)=>(
        <div key={recipess.idMeal}>
        
