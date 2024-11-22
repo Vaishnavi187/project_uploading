@@ -103,7 +103,7 @@ const RecepieList = () => {
   value={meal}
   onChange={(e)=>setMeal(e.target.value)}
   />
-  <button className='bg-black p-2 ml-3 '>Search</button>
+  <button className='bg-black p-2 ml-3 mt-4'>Search</button>
  </form>
  {/* <form onSubmit={handlebyingredient}>
   <input  className='h-10 text-center'
@@ -143,7 +143,7 @@ const RecepieList = () => {
  </form> */}
  
     
-      <div className=' gap-10 flex  flex-wrap' >
+      <div className=' gap-5 mt-4 flex  flex-wrap' >
 <button className="btn btn-outline btn-info" onClick={()=>setItems("Indian")}>Indian</button>
 <button className="btn btn-outline btn-success"onClick={()=>setItems("Chinese")}>Chinese</button>
 <button className="btn btn-outline btn-warning"onClick={()=>setItems("Thai")}>Thai</button>
@@ -157,8 +157,8 @@ const RecepieList = () => {
        <div key={recipess.idMeal}>
        
        <Link to={`/recipe/${recipess.idMeal}`}>
-       <img  src={recipess.strMealThumb} alt={recipess.strMeal} width="200"  className='transition-all duration-100 hover:scale-110 border-4' />
-       <h2>{recipess.strMeal}</h2>
+       <img  src={recipess.strMealThumb} alt={recipess.strMeal} width="200"  className='transition-all duration-100 hover:scale-110 border-4 w-full h-80' />
+       <h2 className='text-center font-bold '>{recipess.strMeal}</h2>
        </Link>
      </div>
     )
