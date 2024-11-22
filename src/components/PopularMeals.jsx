@@ -63,8 +63,8 @@ const PopularMeals = () => {
   return (
     <>
     <div className='min-w-full'>
-       <div className='  w-full  sm:w-5/6 md:ml-24 h-full  overflow-hidden  '>
-    <h1 className='text-center font-bold md:text-3xl text-lg sm:xl border-b-2'>POPULAR MEALS</h1>    
+       <div className='  w-full  sm:w-5/6 md:ml-24 h-full  overflow-hidden'>
+    <h1 className='text-center font-bold md:text-3xl text-lg sm:xl border-b-2 mt-4 '>POPULAR MEALS</h1>    
 
   <Slider {...settings}>
 
