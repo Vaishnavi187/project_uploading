@@ -157,7 +157,7 @@ const RecepieList = () => {
        <div key={recipess.idMeal}>
        
        <Link to={`/recipe/${recipess.idMeal}`}>
-       <img  src={recipess.strMealThumb} alt={recipess.strMeal} width="200"  className='transition-all duration-100 hover:scale-110 border-4 w-full h-80' />
+       <img  src={recipess.strMealThumb} alt={recipess.strMeal} width="200"  className='transition-all duration-100 hover:scale-110 border-4 w-80 h-70 sm:w-60 sm:h-60 md:w-64 md:h-64' />
        <h2 className='text-center font-bold '>{recipess.strMeal}</h2>
        </Link>
      </div>
