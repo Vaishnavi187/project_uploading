@@ -97,13 +97,13 @@ const RecepieList = () => {
   <button className='bg-black p-1 '>Search</button>
  </form> */}
  <form onSubmit={handlebyname}>
-  <input   className='h-10 text-center w-60 mt-7 '
+  <input   className='h-10 text-center w-60 mt-7 text-white '
   type='text'
   placeholder='Search by name.....' 
   value={meal}
   onChange={(e)=>setMeal(e.target.value)}
   />
-  <button className='bg-black p-2 ml-3 mt-4'>Search</button>
+  <button className='bg-black p-2 ml-3 mt-4 text-white'>Search</button>
  </form>
  {/* <form onSubmit={handlebyingredient}>
   <input  className='h-10 text-center'
