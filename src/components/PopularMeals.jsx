@@ -62,8 +62,8 @@ const PopularMeals = () => {
       };
   return (
     <>
-    <div className='min-w-full'>
-       <div className='  w-full  sm:w-5/6 md:ml-24 h-full  overflow-hidden'>
+    <div className='min-w-full overflow-hidden'>
+       <div className='  w-full  sm:w-full  h-full  overflow-hidden '>
     <h1 className='text-center font-bold md:text-3xl text-lg sm:xl border-b-2 mt-4 '>POPULAR MEALS</h1>    
 
   <Slider {...settings}>
@@ -72,8 +72,8 @@ const PopularMeals = () => {
 
       <div key={slide.idMeal} >
   <Link to={`/recipe/${slide.idMeal}`}>
-        <img src={slide.strMealThumb} className='mt-10 h-56  transition-all duration-100 hover:scale-110 border-4 w-full md:w-4/6  '/> 
-        <h2 className='text-center mr-16 text-xl font-bold '>{slide.strMeal}</h2> 
+        <img src={slide.strMealThumb} className='mt-10 h-56 sm:ml-10 transition-all duration-100 hover:scale-110 border-4 w-full sm:w-5/6  md:w-5/6  overflow-hidden '/> 
+        <h2 className=' text-xl font-bold  flex justify-center overflow-hidden '>{slide.strMeal}</h2> 
         </Link>
       </div>
       
